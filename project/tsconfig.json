@@ -12,6 +12,7 @@
     "noImplicitAny": true,
     // 라이브러리 자체에서 @types를 제공하지 않을 경우 내가 직접 types.d.ts를 만들어줘야 한다.
     "typeRoots": ["./node_modules/@types", "./types"],
+    "strict": true,    
   },
   // ts로 변환할 파일 또는 폴더를 설정
   "include": ["./src/**/*"]
