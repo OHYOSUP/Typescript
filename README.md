@@ -4,6 +4,27 @@
 
 [![typescript-beginner](https://joshua1988.github.io/images/posts/web/inflearn/typescript-beginner-kor.png)](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8?inst=f1ae9299&utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner)
 
+
+## Mark down
+0. JSDoc으로 타입 시스템 입히기
+
+1. 타입스크립트 기본 환경 구성
+  - [x] npm 초기화
+  - [x] 타입스크립트 라이브러리 설치
+  - [x] 타입스크립트 설정 파일 생성 및 기본값 추가
+  - [x] 자바스크립트 파일을 타입스크립트 파일로 변환
+  - [x] tsc명령어로 타입스크립트 컴파일 하기
+
+2. 타입스크립트 명시적인 `any` 적용하기
+  - `tsconfig.json`파일이 noImplicityAyn값을 true로 추가
+  - 가능한한 구체적인 타입으로 정의
+3. 프로젝트 환경 구성
+  - babel, eslint, prettier등 환경설정
+4. 외부 라이브러리 모듈화
+  
+
+
+
 ## 개발 환경
 
 - [Chrome](https://www.google.com/intl/ko/chrome/)

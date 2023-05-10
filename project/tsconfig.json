@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    //자바스크립트 파일을 타입스크립트 파일로 그대로 쓰겠다
+    "allowJs": true,
+    // ts파일을 js로 변환해주는 것
+    "target": "ES5",
+    // 타입스크립트의 결과물이 어디에 들어가도록 할 것인가
+    "outDir": "./dist",
+    // Promise를 반환하는 코드를 인식시켜주기 위함
+    "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"],
+    "noImplicitAny": true,
+    // 라이브러리 자체에서 @types를 제공하지 않을 경우 내가 직접 types.d.ts를 만들어줘야 한다.
+    "typeRoots": ["./node_modules/@types", "./types"],
+  },
+  // ts로 변환할 파일 또는 폴더를 설정
+  "include": ["./src/**/*"]
+}
